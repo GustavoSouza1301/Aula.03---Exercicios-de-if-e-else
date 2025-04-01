@@ -5,7 +5,8 @@ subtracacao = num1 - num2
 divisao = num1 / num2
 multiplicacao = num1 * num2
 
-print(f"Resultado soma: {soma}\n"
-f"Resultado subtração: {subtracacao}\n"
-f"Resultado divisão: {divisao}\n"
-f"Resultado multiplicação:{multiplicacao} ")
+print(f"Resultado Soma: {soma}\n"
+f"Resultado Dubtração: {subtracacao}\n"
+#Usar ":.0f" e ":.2f" na mult. ou div.
+f"Resultado Divisão: {divisao:.2f}\n"
+f"Resultado Multiplicação:{multiplicacao} ")
