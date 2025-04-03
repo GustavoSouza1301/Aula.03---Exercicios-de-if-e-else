@@ -1,6 +1,6 @@
 n = int(input("Digite o número: "))
 
 if n % 2 == 0:
-    print("Par")
+    print("Número Par")
 else:
-    print("impar")
+    print("Número impar")
