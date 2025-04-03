@@ -6,9 +6,11 @@ litro = float(input("Digite a quantidade de litros de gasolina: "))
 gasolina = 5.80
 etanol = 4.90
 
-if tipo == "G":
+if tipo == "G" or tipo == "g":
+    valor = litro * gasolina
+elif tipo == "E" or tipo == "e":
     valor = litro * gasolina
 else:
-    valor = litro * etanol
+    print("Tipo invalido, tente novamente")
 
-print(f"Valor a pagar: R${valor}")
+print(f"Valor a pagar: R${valor:.2f}")
